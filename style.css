@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+/* Linear Gradients (goes down/up/left/right/diagonally)
+Radial Gradients (defined by their center)
+Conic Gradients (rotated around a center point) */
+.Page1{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(18, 24, 24, 0.45) 0%,rgba(19, 27, 27, 0.53) 50%), url(https://images.unsplash.com/photo-1703800991984-4c3e59ca4756?q=80&w=1949&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 20px;
+    text-align: center;
+}
+.Page1 h1{
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    padding-top: 40px;
+    color: beige;
+
+}
+.Page1 p{
+    padding: 50px;
+    color: aliceblue;
+}
+.Page1 button{
+    color: black;
+}
+.Page2{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(13, 9, 15, 0.24) 80%,rgba(10, 7, 11, 0.23) 100%), url(https://images.unsplash.com/photo-1703796970924-7d50bcde828e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
